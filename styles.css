@@ -1,0 +1,77 @@
+/* Basic page styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    text-align: center;
+    background-color: #003366;
+    color: #ffffff;
+    padding: 30px 10px;
+}
+
+header h1 {
+    margin: 0 0 15px 0;
+}
+
+/* Portrait image styling */
+.portrait {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #ffffff;
+    margin-top: 10px;
+}
+
+/* Section styling */
+section {
+    margin-bottom: 25px;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-top: 0;
+    color: #003366;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #cccccc;
+    padding: 8px 10px;
+    text-align: left;
+}
+
+th {
+    font-weight: bold;
+    background-color: #e0e7f5;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #003366;
+    color: #ffffff;
+    margin-top: 20px;
+}
